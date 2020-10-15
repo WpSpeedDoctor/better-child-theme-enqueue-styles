@@ -25,7 +25,10 @@ Then go and add your styles into created files.
 The priority of loading styles are the following:
 
 Template
+
 Page
+
 Inline
 
+I hope it will make your life easier and your website faster to load on slow mobile devices.
 Enjoy!
