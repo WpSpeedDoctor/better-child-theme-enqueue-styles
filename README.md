@@ -22,13 +22,14 @@ For debugging purposes, I have included a debugging window. It will display the 
 
 Then go and add your styles into created files.
 
-The priority of loading styles are the following:
+The priority of styles are the following:
 
-Template
-
-Page
-
-Inline
+```
+1.Inline
+2.Page
+3.Template
+```
+For example, if you have template CSS loaded and then you add individual page CSS, styles in individual CSS will have higher priority than template css styles.
 
 I hope it will make your life easier and your website faster to load on slow mobile devices.
 Enjoy!
