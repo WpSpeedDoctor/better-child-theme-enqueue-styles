@@ -4,10 +4,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 
-// add to function PHP 
-//include ( trailingslashit( get_theme_file_path() ) . 'enqueue-styles.php');
-
-
 if ( ! function_exists( 'get_css_asset_folder' )){
     function get_css_asset_folder() {
         return 'assets/css/';
