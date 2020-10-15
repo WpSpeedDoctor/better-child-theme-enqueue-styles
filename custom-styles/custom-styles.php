@@ -1,7 +1,7 @@
 <?php
 /*  
  *    Author: Jaro Kurimsky
- *    Git: https://github.com/jarowp/better-child-theme-enqueue-styles
+ *    Github: https://github.com/WpSpeedDoctor/
  *
  *    To activate script add to functions PHP of the child theme following line
  *    require_once ( trailingslashit( get_theme_file_path() ) . 'custom-styles/custom-styles.php');
