@@ -1,6 +1,6 @@
 <?php
 /*  
- *    Author Jaro Kurimsky
+ *    Author: Jaro Kurimsky
  *    Git: https://github.com/jarowp/better-child-theme-enqueue-styles
  *
  *    To activate script add to functions PHP of the child theme following line
