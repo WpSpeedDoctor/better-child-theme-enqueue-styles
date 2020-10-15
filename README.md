@@ -18,6 +18,8 @@ Example of use:
 
 Let's say you have template 'woocommerce' then in order to load CSS file only for this template you have to have ```/child-theme/assets/css/template-woocommerce.css```. You can create it manually or when logged in, go to the page where this template was used and add query string ?css=template. Similar way you can create the CSS file for the page by using query string ```?css=page``` or inline by ```?css=inline```. Otherwise, you need to create for the page with WordPress ID=2 ```/child-theme/assets/css/page-2.css``` or inline ```/child-theme/assets/css/inline-2.css```.
 
+For debugging purposes, I have included a debugging window. It will display the file path of files that been loaded or, if not present, would be loaded if they been present. To display this debugging window just add on a given page query string ```?css``` and you have to be logged in. An example would be ``` https://mywebsite.com/shop/?css```.
+
 Then go and add your styles into created files.
 
 The priority of loading styles are the following:
