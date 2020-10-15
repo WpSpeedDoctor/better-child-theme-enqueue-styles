@@ -1,7 +1,7 @@
 # Better child theme enqueue styles.
 
 Why you should use this script:
-The old style of creating stylesheets is to create one general style.css and then in the child theme your own style.css that will override parent theme styles. Then all styles are loaded on all pages of the website. If you want to to have top speed on mobile devices you have to load the least amount of styles on a given page. Why? Because CSS (JS too) have to be processed every time and low-tier mobiles with slower CPU it will take significant time, sometimes even 2-3 seconds more than on top-tier mobiles. The best practice is to have one style that has all styles that are general for all website like styles for header, footer, headers, body text an so on, and on templates and individual pages load styles that are related to a given template or page. My recommendation is not to load parent stylesheet, rather copy styles from parent style.css to child-theme style.css, filter it and remove parts that are not used on your type of website. An example would be if you have a blog and parent style.css contain CSS styles for Woocommerce, but you don't use Woocommerce, then just delete it. This way you can save easily 20% of its original size. 
+The old style of creating stylesheets is to create one general style.css and then in the child theme your own style.css that will override parent theme styles. Then all styles are loaded on all pages of the website. If you want to to have top speed on mobile devices you have to load the least amount of styles on a given page. Why? Because CSS (JS too) have to be processed every time and on low-tier mobiles with slower CPU it will take significantly more time. Sometimes it could be even 2-3 seconds more than on top-tier mobiles. The best practice is to have one style that has all styles that are general for all website like styles for header, footer, headers, body text an so on, and on templates and individual pages load styles that are related to a given template or page. My recommendation is not to load parent stylesheet, rather copy styles from parent style.css to child-theme style.css, filter it and remove parts that are not used on your type of website. An example would be if you have a blog and parent style.css contain CSS styles for Woocommerce, but you don't use Woocommerce, then just delete it. This way you can save easily 20% of its original size. 
 
 Installation:
 1. Create the child theme
@@ -29,7 +29,7 @@ The priority of styles are the following:
 2.Page
 3.Template
 ```
-For example, if you have template CSS loaded and then you add individual page CSS, styles in individual CSS will have higher priority than template css styles.
+For example, if you have template CSS loaded and then you add individual page CSS, styles in individual CSS will have higher priority than template CSS styles.
 
 I hope it will make your life easier and your website faster to load on slow mobile devices.
 Enjoy!
